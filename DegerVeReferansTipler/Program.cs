@@ -10,7 +10,7 @@ namespace DegerVeReferansTipler
 
             int sayi1 = 10;
             int sayi2 = 30;
-            int sayi1 = sayi2;
+            int sayi1 = sayi2; 
             sayi2 = 65;
 
 
