@@ -10,7 +10,7 @@ namespace GenerıcsIntro
             Isimler.Add("Umit");
 
 
-
+            Console.WriteLine(Isimler.Lenght);
 
         }
     }

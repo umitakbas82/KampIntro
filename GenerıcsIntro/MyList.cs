@@ -26,5 +26,12 @@ namespace GenerıcsIntro
 
         }
 
+        public int Lenght
+        {
+
+           
+        }
+            
+
     }
 }
