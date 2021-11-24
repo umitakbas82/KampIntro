@@ -19,6 +19,6 @@ where Products.UnitPrice>10
 
 --DTO DATA TRANSFORMATION OBJECT
 
-Select * from Products p left join [Order Details] od on p.ProductID=od.ProductID 
+Select * from Product p inner join [Order Details] od on p.ProductID=od.ProductID inner join Orders o on o.OrderId=od.OrderId
 
-Select * from Customers c left join Orders o on c.CustomerID = o.CustomerID where  o.CustomerID is null
+Select * from Customer c left join Orders o on c.CustomerID = o.CustomerID where  o.CustomerID is null
